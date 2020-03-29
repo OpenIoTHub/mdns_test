@@ -3,7 +3,7 @@ import 'package:multicast_dns/multicast_dns.dart';
 Future<void> main() async {
   // Parse the command line arguments.
 
-  const String name = '_dartobservatory._tcp.local';
+  const String name = '_iotdevice._tcp.local';
   final MDnsClient client = MDnsClient();
   // Start the client with default options.
   await client.start();

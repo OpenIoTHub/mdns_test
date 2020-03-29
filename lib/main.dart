@@ -29,6 +29,10 @@ Future<void> main() async {
           ptr.domainName; //.substring(0, ptr.domainName.indexOf('@'));
       print('Dart observatory instance found at '
           '${srv.target}:${srv.port} for "$bundleId".');
+      print(ptr);
+      await client
+          .lookup<TxtResourceRecord>(ResourceRecordQuery.text(ptr.domainName))
+          .forEach(print);
     }
   }
   client.stop();

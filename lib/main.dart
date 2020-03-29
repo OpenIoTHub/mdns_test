@@ -1,3 +1,10 @@
+// Copyright 2018, the Flutter project authors. Please see the AUTHORS file
+// for details. All rights reserved. Use of this source code is governed by a
+// BSD-style license that can be found in the LICENSE file.
+
+// Example script to illustrate how to use the mdns package to discover the port
+// of a Dart observatory over mDNS.
+
 import 'package:multicast_dns/multicast_dns.dart';
 
 Future<void> main() async {
@@ -8,7 +15,7 @@ Future<void> main() async {
   // Start the client with default options.
   await client.start();
 
-  // Get the PTR recod for the service.
+  // Get the PTR record for the service.
   await for (PtrResourceRecord ptr in client
       .lookup<PtrResourceRecord>(ResourceRecordQuery.serverPointer(name))) {
     // Use the domainName from the PTR record to get the SRV record,

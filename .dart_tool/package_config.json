@@ -1,0 +1,26 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "meta",
+      "rootUri": "file:///C:/Users/Farry/AppData/Roaming/Pub/Cache/hosted/pub.flutter-io.cn/meta-1.1.8",
+      "packageUri": "lib/",
+      "languageVersion": "1.12"
+    },
+    {
+      "name": "multicast_dns",
+      "rootUri": "file:///C:/Users/Farry/AppData/Roaming/Pub/Cache/hosted/pub.flutter-io.cn/multicast_dns-0.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "nat_explorer",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    }
+  ],
+  "generated": "2020-03-29T09:08:57.774123Z",
+  "generator": "pub",
+  "generatorVersion": "2.8.0-dev.14.0.flutter-db5dc11b9b"
+}

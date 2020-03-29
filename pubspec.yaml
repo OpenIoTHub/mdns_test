@@ -1,0 +1,10 @@
+name: nat_explorer
+description: A new Flutter application of natcloud explorer.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  #  mDNS
+  multicast_dns: ^0.1.1
